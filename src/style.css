@@ -1,0 +1,159 @@
+body{
+  margin : 0 ;
+  padding : 0 ;
+  line-height : 1.5em ;
+  background : url(background.png) ;
+  background-repeat : repeat-x ;
+  background-attachment : fixed ;
+  background-position : bottom ;
+  height : 100% ;
+}
+h1, h2{
+  text-align : center ;
+  font-family : arial black , sans-serif ;
+  
+}
+h1{
+  background : blue ;
+  color : white ;
+  font-size : 30pt ;
+  padding : 1em ;
+  margin : 0px ;
+}
+h2{
+  color : blue ;
+}
+h2.neutral { color : blue  ; }
+h2.selected{ color : green ; }
+h2.rejected{ color : red   ; }
+
+#maincontainer{
+  width : 840px ; /*Width of main container*/
+  margin : 0 auto ; /*Center container on page*/
+  margin-top : 20px ;
+  margin-bottom : 50px ;
+  padding : 20px ;
+  border : 1px solid black ;
+  background : white ;
+}
+
+#topsection{
+  margin-bottom : 10px ;
+}
+
+
+#contentwrapper{
+  float: left ;
+  width: 100% ;
+}
+
+div.table{
+  display : table ;
+  width : 100% ;
+  margin : auto ;
+  margin-bottom : 10px ;
+}
+div.tab_row{
+  display : table-row ;
+}
+
+#div_left, #div_right{
+  display : table-cell ;
+  width : 50% ;
+}
+
+#div_left{
+  border : 4px solid gray ;
+  border-right : 2px solid gray ;
+}
+
+#div_right{
+  border : 4px solid gray ;
+  border-left : 2px solid gray ;
+}
+
+#footer{
+  clear : left ;
+  width : 100% ;
+  background : black ;
+  color : #FFF ;
+  text-align : center ;
+  padding : 4px 0 ;
+  font-family : arial , sans-serif ;
+}
+
+.innertube{
+  padding : 10px ; /*Margins for inner DIV inside each column (to provide padding)*/
+  margin-top : 0 ;
+}
+.center{
+  text-align : center ;
+}
+
+input#input_choose_left, input#input_choose_right, input#submit_suggest{
+  margin-top : 10px ;
+  width : 350px ;
+  color : white ;
+  border : none ;
+  padding : 0.5em ;
+  font-family : arial , sans-serif ;
+  font-size : 16pt ;
+}
+input#submit_suggest{
+  width : 200px ;
+  position : relative ;
+  top : -5px ;
+}
+input#input_suggest{
+  font-family : arial , sans-serif ;
+  font-size : 24pt ;
+  width : 400px ;
+}
+
+div.selected{ background : #ddffdd ; }
+div.rejected{ background : #ffdddd ; }
+input.selected{ background : green ; }
+input.rejected{ background : red   ; }
+input.neutral { background : blue  ; }
+
+div#div_suggest{
+  padding : 1em ;
+  font-family : arial , sans-serif ;
+  font-size : 16pt ;
+  text-align : center ;
+}
+span#span_suggest{
+}
+div#div_suggest_inner{
+  vertical-align : middle ;
+  font-size : 24pt ;
+}
+input{
+  margin : 0px ;
+  padding: 0px ;
+}
+
+div#div_simply_choose, div#div_status{
+  text-align : center ;
+  font-family : georgia , sans-serif ;
+  font-size : 16pt ;
+  padding : 1em ;
+}
+
+div.score{
+  text-align : center ;
+}
+span.score{
+  padding-left : 2em ;
+  padding-right : 2em ;
+}
+span#span_left_win, span#span_right_win{
+  color : green ;
+}
+span#span_left_lose, span#span_right_lose{
+  color : red ;
+}
+
+div#image_preview{
+  display : none ;
+}
