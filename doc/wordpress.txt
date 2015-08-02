@@ -1,6 +1,6 @@
 [mathjax]
 
-One of the most fruitful memes on the internet is "That wierd part of YouTube".  I saw an opportunity to createa a service to find the weirdest videos on YouTube, and I made this webpage.
+One of the most fruitful memes on the internet is "That wierd part of YouTube".  I saw an opportunity to create a service to find the weirdest videos on YouTube, and I made this webpage.
 
 <h3>Links</h3>
 
